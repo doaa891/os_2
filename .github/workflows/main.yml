@@ -12,12 +12,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      
-
-     
-
-
      - uses: actions/checkout@v3
-       
-     - name: "Printing folder contents" 
-       run: ls 
+
+
+     - name:  Login to Docker hub"
+       run: docker login --username doaa6ismail --password dckr_pat_b8-alkrfCV-4c3eRL8EevSQDBV8
+
